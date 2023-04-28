@@ -5,8 +5,8 @@ export function Footer() {
   let text = string.split(" ").join("%20");
 
   return (
-    <div className="container mt-3 mb-3">
-      <div className="row align-items-start">
+    <div className="container mt-3 mb-3 border-top border-dark">
+      <div className="row align-items-start mt-3">
         <div className="col text-center">
           <p>
             Done by Jukumary-2023 at{" "}

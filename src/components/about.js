@@ -48,7 +48,7 @@ export function About() {
         </nav>
 
         <div className="col">
-          <div id="vision" className="row mt-3">
+          <div id="vision" className="row mt-3 border-bottom border-dark">
             <h2> Visión</h2>
             <p>
               Tenemos la certeza con base a estudios científicos y humanísticos
@@ -59,7 +59,7 @@ export function About() {
               crítico.{" "}
             </p>
           </div>
-          <div id="mision" className="row mt-3">
+          <div id="mision" className="row mt-3 border-bottom border-dark">
             <h2> Misión</h2>
             <p>
               Más allá del disfrute emocional que puede generar individualmente
@@ -73,7 +73,7 @@ export function About() {
             </p>
           </div>
 
-          <div id="ofrecemos" className="row mt-3">
+          <div id="ofrecemos" className="row mt-3 border-bottom border-dark">
             <h2> ¿Qué ofrecemos?</h2>{" "}
             <ol className="ms-5 me-5">
               <li>
@@ -117,10 +117,10 @@ export function About() {
               <br />
             </ol>
           </div>
-          <div id="contenido" className="row mt-3">
+          <div id="contenido" className="row mt-3 border-bottom border-dark">
             <h2> Contenido de las Clases de Música</h2>{" "}
             <ol className="ms-5 me-5">
-              <div className="row align-items-start mt-3">
+              <div className="row align-items-start mt-3 border-right border-dark">
                 <div className="col me-3">
                   <li> Comprensión del lenguaje musical</li>
                   <br />
@@ -196,8 +196,8 @@ export function About() {
             </ol>
           </div>
 
-          <div id="acuerdos" className="row">
-            <h2 className="text-center">Acuerdos</h2> <br />
+          <div id="acuerdos" className="row ">
+            <h2 className="text-center mt-4">Acuerdos</h2> <br />
             <div className="mt-4 row align-items-start">
               <div className="col">
                 <h3 className="text-center">Academicos: </h3>

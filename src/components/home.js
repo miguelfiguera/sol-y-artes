@@ -43,7 +43,7 @@ export function Home() {
 
 
 
-        <div className=" row align-items-start mt-5 mb-5 border-bottom border-dark">
+        <div className=" row align-items-start mt-5 mb-5">
           <img className="col-3" src={Plan3} alt="Jazz Club Flyer" style={{maxHeight:400,maxWidth:200}} />
           <div className="col">
             <h2>Title 3</h2>
