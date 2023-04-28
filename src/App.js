@@ -6,8 +6,7 @@ import { Galery } from "./components/galery";
 import { Contact } from "./components/contact";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
-import Modal from 'react-modal'
-import {useState,useEffect} from 'react'
+import {useState} from 'react'
 
 
 
