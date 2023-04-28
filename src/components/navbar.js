@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-
-export function Navbar() {
+export function Navbar({open}) {
 
   return (
     <nav className="navbar  navbar-expand-lg  bg-light">
@@ -38,7 +37,7 @@ export function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">
+              <Link className="nav-link" onClick={open}>
                 Contacto
               </Link>
             </li>

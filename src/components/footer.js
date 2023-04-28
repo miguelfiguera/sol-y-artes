@@ -6,26 +6,38 @@ export function Footer() {
 
   return (
     <div className="container mt-3 mb-3">
-
       <div className="row align-items-start">
         <div className="col text-center">
-            <p>Done by Jukumary-2023 at <a href="https://github.com/miguelfiguera">gitHub.com <i class="fa-brands fa-github"></i></a></p>
+          <p>
+            Done by Jukumary-2023 at{" "}
+            <a href="https://github.com/miguelfiguera">
+              gitHub.com <i className="fa-brands fa-github"></i>
+            </a>
+          </p>
         </div>
         <div className="col text-center">
-        <h6>
-          Whatsapp:{" "}
-          <a href={`https://wa.me/4242341510?text=${text}`}>
-            <i className="fa-brands fa-whatsapp"></i>{" "}
-          </a>
-        </h6>
+          <h6>
+            Whatsapp:{" "}
+            <a href={`https://wa.me/584242341510?text=${text}`}>
+              <i className="fa-brands fa-whatsapp"></i>{" "}
+            </a>
+          </h6>
         </div>
         <div className="col text-center">
-        <h6>
-          Instagram:{" "}
-          <a href="https://www.instagram.com/escuela.solyartes/">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
-        </h6>
+          <h6>
+            Instagram:{" "}
+            <a href="https://www.instagram.com/escuela.solyartes/">
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+          </h6>
+        </div>
+        <div className="col text-center">
+          <h6>
+            Youtube:{" "}
+            <a href="https://www.youtube.com/@victorsolla/videos">
+              <i className="fa-brands fa-youtube"></i>
+            </a>
+          </h6>
         </div>
       </div>
     </div>
