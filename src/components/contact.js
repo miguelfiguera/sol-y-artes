@@ -33,6 +33,8 @@ export function Contact({ open, closeModal }) {
     maxWidth: 200,
     maxHeight: 200,
   };
+  let string = "Escribo por las clases de musica desde la pagina web.";
+  let text = string.split(" ").join("%20");
 
   return ReactDom.createPortal(
     <div className="container">
@@ -49,17 +51,18 @@ export function Contact({ open, closeModal }) {
               <li>Telf:</li>
               <li>Correo: solyartes@hotmail.com </li>
               <li>
-                Instagram:
+                Instagram: @escuela.solyartes
+
                 <a href="https://www.instagram.com/escuela.solyartes/">
-                  @escuela.solyartes
+                  <i className="fa-brands fa-instagram"></i>{" "}
                 </a>
-                <i className="fa-brands fa-instagram"></i>{" "}
+                
               </li>
               <li>
-                Whatsapp:{" "}
-                <a href="https://www.instagram.com/escuela.solyartes/">
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
+              Whatsapp:{" "}
+            <a href={`https://wa.me/584242341510?text=${text}`}>
+              <i className="fa-brands fa-whatsapp"></i>{" "}
+            </a>
               </li>
               <li>
                 Youtube:{" "}
