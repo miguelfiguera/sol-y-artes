@@ -5,7 +5,7 @@ export function Navbar({open}) {
   return (
     <nav className="navbar  navbar-expand-lg  bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/sol-y-artes/">
           Sol y Artes
         </Link>
         <button
