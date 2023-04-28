@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sol-y-artes/static/css/main.8f24f6ae.css",
-    "main.js": "/sol-y-artes/static/js/main.1808f80c.js",
+    "main.js": "/sol-y-artes/static/js/main.d25578f6.js",
     "static/js/787.bfd2fb2a.chunk.js": "/sol-y-artes/static/js/787.bfd2fb2a.chunk.js",
     "static/media/jazz club flyer -1 (2).png": "/sol-y-artes/static/media/jazz club flyer -1 (2).ea687e35f61ff59e68dc.png",
     "static/media/Flyer cartel para clases de guitarra instrumentos música extraescolares fotográfico blanco y negro.png": "/sol-y-artes/static/media/Flyer cartel para clases de guitarra instrumentos música extraescolares fotográfico blanco y negro.d8a6c7b13eba82e928f7.png",
@@ -9,11 +9,11 @@
     "static/media/Solyartes_con_lema.png": "/sol-y-artes/static/media/Solyartes_con_lema.bad26302e1ca124db18d.png",
     "index.html": "/sol-y-artes/index.html",
     "main.8f24f6ae.css.map": "/sol-y-artes/static/css/main.8f24f6ae.css.map",
-    "main.1808f80c.js.map": "/sol-y-artes/static/js/main.1808f80c.js.map",
+    "main.d25578f6.js.map": "/sol-y-artes/static/js/main.d25578f6.js.map",
     "787.bfd2fb2a.chunk.js.map": "/sol-y-artes/static/js/787.bfd2fb2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f24f6ae.css",
-    "static/js/main.1808f80c.js"
+    "static/js/main.d25578f6.js"
   ]
 }
