@@ -22,9 +22,9 @@ function App() {
         <Header />
         <Navbar open={()=>setModal(true)} />
         <Routes>
-          <Route exact path="/"  Component={Home} />
-          <Route exact path="/about"  Component={About} />
-          <Route exact path="/galery"  Component={Galery} />
+          <Route exact path="/SolyArtes/"  Component={Home} />
+          <Route exact path="/SolyArtes/about"  Component={About} />
+          <Route exact path="/SolyArtes/galery"  Component={Galery} />
         </Routes>
         <Contact open={modal} closeModal={()=>setModal(false)}/>
         <Footer />
