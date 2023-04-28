@@ -5,7 +5,7 @@ export function Navbar({open}) {
   return (
     <nav className="navbar  navbar-expand-lg  bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/sol-y-artes/">
+        <Link className="navbar-brand" to="/">
           Sol y Artes
         </Link>
         <button
@@ -22,17 +22,17 @@ export function Navbar({open}) {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/sol-y-artes/">
+              <Link className="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/sol-y-artes/about">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/sol-y-artes/galery">
+              <Link className="nav-link" to="/galery">
                 Galería
               </Link>
             </li>
