@@ -9,37 +9,37 @@ export function About() {
       <div className="row align-items-start">
         <nav className="col-2 sticky-top">
           <button className="btn btn-secondary me-3 ms-3 mb-3">
-            <Link to="/about#vision" className={classForNavAnchors}>
+            <Link to="/sol-y-artes/about#vision" className={classForNavAnchors}>
               Visión
             </Link>
           </button>
           <button className="btn btn-secondary mb-3 me-3 ms-3">
             {" "}
-            <Link to="/about#mision" className={classForNavAnchors}>
+            <Link to="/sol-y-artes/about#mision" className={classForNavAnchors}>
               Misión
             </Link>
           </button>
           <button className="btn btn-secondary mb-3 me-3 ms-3">
             {" "}
-            <Link to="/about#ofrecemos" className={classForNavAnchors}>
+            <Link to="/sol-y-artes/about#ofrecemos" className={classForNavAnchors}>
               Oportunidades
             </Link>
           </button>
           <button className="btn btn-secondary mb-3 me-3 ms-3">
             {" "}
-            <Link to="/about#contenido" className={classForNavAnchors}>
+            <Link to="/sol-y-artes/about#contenido" className={classForNavAnchors}>
               Contenido
             </Link>
           </button>
           <button className="btn btn-secondary mb-3 me-3 ms-3">
             {" "}
-            <Link to="/about#acuerdos" className={classForNavAnchors}>
+            <Link to="/sol-y-artes/about#acuerdos" className={classForNavAnchors}>
               Acuerdos
             </Link>
           </button>
           <button className="btn btn-secondary mb-3 me-3 ms-3">
             <Link
-              to="/about#header"
+              to="/sol-y-artes/about#header"
               className="text-decoration-none text-reset"
             >
               Top Page
