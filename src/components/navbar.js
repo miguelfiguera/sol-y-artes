@@ -22,17 +22,17 @@ export function Navbar({open}) {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/SolyArtes/">
+              <Link className="nav-link active" aria-current="page" to="/sol-y-artes/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/SolyArtes/about">
+              <Link className="nav-link" to="/sol-y-artes/about">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/SolyArtes/galery">
+              <Link className="nav-link" to="/sol-y-artes/galery">
                 Galería
               </Link>
             </li>
