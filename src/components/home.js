@@ -9,7 +9,7 @@ export function Home() {
       <div className="text-center">
         <h1>Escuela Sol y Artes</h1>
         <p>
-          Somos una organización familiar de músicos con formación profesional
+          Somos una organización de músicos con formación profesional
           que prestamos servicios de clases particulares a domicilio y online.
         </p>
       </div>

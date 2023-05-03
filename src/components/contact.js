@@ -7,12 +7,16 @@ export function Contact({ open, closeModal }) {
     return null;
   }
 
+  const darkOrange = "#c2410c";
+
   const modalStyles = {
     position: "fixed",
     top: "50%",
     left: "50%",
     transform: "translate(-50%, -50%)",
-    backgroundColor: "#FFF",
+    background: "rgb(54,8,91)",
+    background:
+      "linear-gradient(45deg, rgba(54,8,91,1) 50%, rgba(88,28,135,1) 90%)",
     padding: "50px",
     zIndex: 1000,
     maxWidth: 600,
@@ -43,31 +47,37 @@ export function Contact({ open, closeModal }) {
           className=" row container-sm align-items-start rounded-3"
           style={modalStyles}
         >
-          <h1 className="text-center mb-4">Escuela Sol y Artes</h1>
+          <h1 className="text-center mb-4 text-light">Escuela Sol y Artes</h1>
 
           <div className="col mt-3">
             <ul>
-              <li>Telf: +58 424-2341510</li>
-              <li>Telf:</li>
-              <li>Correo: solyartes@hotmail.com </li>
-              <li>
+              <li className="text-light">Telf: +58 424-2341510</li>
+              <li className="text-light">Correo: solyartes@hotmail.com </li>
+              <li className="text-light">
                 Instagram: @escuela.solyartes
-
                 <a href="https://www.instagram.com/escuela.solyartes/">
-                  <i className="fa-brands fa-instagram"></i>{" "}
+                  <i
+                    className="fa-brands fa-instagram fa-lg"
+                    style={{ color: darkOrange }}
+                  ></i>{" "}
                 </a>
-                
               </li>
-              <li>
-              Whatsapp:{" "}
-            <a href={`https://wa.me/584242341510?text=${text}`}>
-              <i className="fa-brands fa-whatsapp"></i>{" "}
-            </a>
+              <li className="text-light">
+                Whatsapp:{" "}
+                <a href={`https://wa.me/584242341510?text=${text}`}>
+                  <i
+                    className="fa-brands fa-whatsapp fa-lg"
+                    style={{ color: darkOrange }}
+                  ></i>{" "}
+                </a>
               </li>
-              <li>
+              <li className="text-light">
                 Youtube:{" "}
                 <a href="https://www.youtube.com/@victorsolla/videos">
-                  <i className="fa-brands fa-youtube"></i>
+                  <i
+                    className="fa-brands fa-youtube fa-lg"
+                    style={{ color: darkOrange }}
+                  ></i>
                 </a>
               </li>
             </ul>

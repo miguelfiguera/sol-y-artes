@@ -7,45 +7,56 @@ export function About() {
     <div className="container">
       <div id="header"></div>
       <div className="row align-items-start">
-        <nav className="col-2 sticky-top">
-          <button className="btn btn-secondary me-3 ms-3 mb-3">
-            <Link to="/sol-y-artes/about#vision" className={classForNavAnchors}>
-              Visión
-            </Link>
-          </button>
-          <button className="btn btn-secondary mb-3 me-3 ms-3">
-            {" "}
-            <Link to="/sol-y-artes/about#mision" className={classForNavAnchors}>
-              Misión
-            </Link>
-          </button>
-          <button className="btn btn-secondary mb-3 me-3 ms-3">
-            {" "}
-            <Link to="/sol-y-artes/about#ofrecemos" className={classForNavAnchors}>
-              Oportunidades
-            </Link>
-          </button>
-          <button className="btn btn-secondary mb-3 me-3 ms-3">
-            {" "}
-            <Link to="/sol-y-artes/about#contenido" className={classForNavAnchors}>
-              Contenido
-            </Link>
-          </button>
-          <button className="btn btn-secondary mb-3 me-3 ms-3">
-            {" "}
-            <Link to="/sol-y-artes/about#acuerdos" className={classForNavAnchors}>
-              Acuerdos
-            </Link>
-          </button>
-          <button className="btn btn-secondary mb-3 me-3 ms-3">
-            <Link
-              to="/sol-y-artes/about#header"
-              className="text-decoration-none text-reset"
+        <nav className="col-2 navbar navbar-expand-lg bg-light sticky-top pe-3">
+          <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              Top Page
-            </Link>
-          </button>
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul className="navbar-nav flex-column">
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#vision">
+                  Visión
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#mision">
+                  Misión
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#ofrecemos">
+                  Oportunidades
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#contenido">
+                  Contenido
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#acuerdos">
+                  Acuerdos
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/sol-y-artes/about#header">
+                  Top Page
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
+      
 
         <div className="col">
           <div id="vision" className="row mt-3 border-bottom border-dark">

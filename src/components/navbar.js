@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+
 export function Navbar({open}) {
+  const lightPurple='#581c87'
+
 
   return (
-    <nav className="navbar  navbar-expand-lg  bg-light">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/sol-y-artes/">
+    <nav className="navbar navbar-expand-lg bg-light mt-0 pt-0" >
+      <div className="container-fluid mt-0 pt-0" style={{backgroundColor:lightPurple}}>
+        <Link className="navbar-brand text-light" to="/sol-y-artes/">
           Sol y Artes
         </Link>
         <button
@@ -22,30 +26,30 @@ export function Navbar({open}) {
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/sol-y-artes/">
+              <Link className="text-light nav-link active" aria-current="page" to="/sol-y-artes/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/sol-y-artes/about">
+              <Link className=" text-light nav-link" to="/sol-y-artes/about">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/sol-y-artes/galery">
+              <Link className="text-light nav-link" to="/sol-y-artes/galery">
                 Galería
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" onClick={open}>
+              <Link className="text-light nav-link" onClick={open}>
                 Contacto
               </Link>
             </li>
 
           </ul>
-          <span className="navbar-text">
+          <span className="text-light navbar-text">
             <strong>
-              <em>Hacemos sonar tus ideas!</em>
+              <em>¡Vive tu experiencia!</em>
             </strong>
           </span>
         </div>
