@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDom from "react-dom";
-import logo from "../graphic_resources/Solyartes_con_lema.png";
+import logo from "../graphic_resources/Logo_y_Profesores/Solyartes sin lema.png";
 
 export function Contact({ open, closeModal }) {
   if (open === false) {
     return null;
   }
+
+  const lightPurple='#581c87'
+
 
   const darkOrange = "#c2410c";
 
@@ -50,10 +53,10 @@ export function Contact({ open, closeModal }) {
           <h1 className="text-center mb-4 text-light">Escuela Sol y Artes</h1>
 
           <div className="col mt-3">
-            <ul>
-              <li className="text-light">Telf: +58 424-2341510</li>
-              <li className="text-light">Correo: solyartes@hotmail.com </li>
-              <li className="text-light">
+            <ul className="mb-0">
+              <li className="text-light mb-3">Telf: +58 424-2341510</li> 
+              <li className="text-light mb-3">Correo: solyartes@hotmail.com </li> 
+              <li className="text-light mb-3">
                 Instagram: @escuela.solyartes
                 <a href="https://www.instagram.com/escuela.solyartes/">
                   <i
@@ -62,7 +65,7 @@ export function Contact({ open, closeModal }) {
                   ></i>{" "}
                 </a>
               </li>
-              <li className="text-light">
+              <li className="text-light mb-3">
                 Whatsapp:{" "}
                 <a href={`https://wa.me/584242341510?text=${text}`}>
                   <i
@@ -91,8 +94,9 @@ export function Contact({ open, closeModal }) {
           <div class="modal-footer">
             <button
               type="button"
-              className="btn btn-secondary mt-4"
+              className="btn btn-secondary mt-0"
               onClick={closeModal}
+              style={{backgroundColor:lightPurple}}
             >
               Close
             </button>
