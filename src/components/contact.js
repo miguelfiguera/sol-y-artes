@@ -21,7 +21,7 @@ export function Contact({ open, closeModal }) {
     background:
       "linear-gradient(45deg, rgba(54,8,91,1) 50%, rgba(88,28,135,1) 90%)",
     padding: "50px",
-    zIndex: 1000,
+    zIndex: 1030,
     maxWidth: 600,
     maxHeight: 400,
   };
@@ -33,7 +33,7 @@ export function Contact({ open, closeModal }) {
     right: 0,
     bottom: 0,
     backgroundColor: "rgba(0, 0, 0, .8)",
-    zIndex: 1000,
+    zIndex: 1030,
   };
 
   const imgSize = {
@@ -57,7 +57,7 @@ export function Contact({ open, closeModal }) {
               <li className="text-light mb-3">Telf: +58 424-2341510</li> 
               <li className="text-light mb-3">Correo: solyartes@hotmail.com </li> 
               <li className="text-light mb-3">
-                Instagram: @escuela.solyartes
+                Instagram: @escuela.solyartes   
                 <a href="https://www.instagram.com/escuela.solyartes/">
                   <i
                     className="fa-brands fa-instagram fa-lg"

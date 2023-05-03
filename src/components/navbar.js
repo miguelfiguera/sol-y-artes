@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 
 export function Navbar({open}) {
+  const darkPurple='#3b0764'
   const lightPurple='#581c87'
-
+  
 
   return (
     <nav className="navbar navbar-expand-lg bg-light mt-0 pt-0" >
-      <div className="container-fluid mt-0 pt-0" style={{backgroundColor:lightPurple}}>
+      <div className="container-fluid mt-0 pt-0" style={{backgroundColor:darkPurple}}>
         <Link className="navbar-brand text-light" to="/sol-y-artes/">
           Sol y Artes
         </Link>
@@ -25,14 +26,20 @@ export function Navbar({open}) {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
             <li className="nav-item">
-              <Link className="text-light nav-link active" aria-current="page" to="/sol-y-artes/">
-                Home
+              <Link className=" text-light nav-link" to="/sol-y-artes/about">
+                Sobre Nosotros
               </Link>
             </li>
             <li className="nav-item">
-              <Link className=" text-light nav-link" to="/sol-y-artes/about">
-                About
+              <Link className=" text-light nav-link" to="/sol-y-artes/docentes">
+                Docentes
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className=" text-light nav-link" to="/sol-y-artes/clases">
+                Paquetes/clases
               </Link>
             </li>
             <li className="nav-item">
