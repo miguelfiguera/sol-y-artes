@@ -95,7 +95,7 @@ export function Contact({ open, closeModal }) {
           </div>
           {viewport > 560 ? <img
           id='contact-logo'
-            className="col"
+            className="col rounded-circle shadow"
             src={logo}
             style={imgSize}
             alt="Logo Sol y Artes"
