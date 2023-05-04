@@ -1,17 +1,25 @@
 import React from "react";
 import ReactDom from "react-dom";
 import logo from "../graphic_resources/Logo_y_Profesores/Solyartes sin lema.png";
+import {useState,useEffect} from 'react'
+
 
 export function Contact({ open, closeModal }) {
+  const [viewport,setViewport] = useState(window.innerWidth)
+
+  window.addEventListener('resize',()=>{
+    setViewport(window.innerWidth)
+  })
+
+
+
+  
   if (open === false) {
     return null;
   }
 
   const lightPurple='#581c87'
-
-
   const darkOrange = "#c2410c";
-
   const modalStyles = {
     position: "fixed",
     top: "50%",
@@ -85,12 +93,13 @@ export function Contact({ open, closeModal }) {
               </li>
             </ul>
           </div>
-          <img
+          {viewport > 560 ? <img
+          id='contact-logo'
             className="col"
             src={logo}
             style={imgSize}
             alt="Logo Sol y Artes"
-          />
+          /> : <div ></div>}
           <div class="modal-footer">
             <button
               type="button"

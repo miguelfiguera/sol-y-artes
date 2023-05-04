@@ -1,9 +1,25 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import {useState} from 'react'
 
 
 export function About() {
 
+  const [viewport,setViewport] = useState(window.innerWidth)
+
+  window.addEventListener('resize',()=>{
+    setViewport(window.innerWidth)
+  })
+
+
+  function toggleCollapsed(){
+    if(viewport<995){ 
+    let navbar=document.getElementById('navbarNavDropdown')
+    let button=document.getElementById('buttonOfAbout')
+
+    navbar.classList.toggle('show')
+    button.classList.toggle('collapsed')}
+  }
   
 
   const lightPurple='#581c87'
@@ -22,6 +38,7 @@ export function About() {
         <nav className="navbar navbar-expand-lg bg-light sticky-top">
           <div className="container-fluid">
             <button
+              id='buttonOfAbout'
               className="navbar-toggler sticky-top"
               type="button"
               data-bs-toggle="collapse"
@@ -35,32 +52,32 @@ export function About() {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#vision">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#vision" onClick={toggleCollapsed}>
                   Visión
                   </Link></strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#mision">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#mision"onClick={toggleCollapsed}>
                   Misión
                   </Link></strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#ofrecemos">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#ofrecemos" onClick={toggleCollapsed}>
                   Oportunidades
                   </Link></strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#contenido">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#contenido"onClick={toggleCollapsed}>
                   Contenido
                   </Link></strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#acuerdos">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#acuerdos"onClick={toggleCollapsed}>
                   Acuerdos
                   </Link></strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#header">
+                  <strong><Link className="nav-link" to="/sol-y-artes/about#header"onClick={toggleCollapsed}>
                   Top Page
                   </Link></strong>
                 </li>

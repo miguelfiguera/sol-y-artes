@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 export function Navbar({open}) {
   const darkPurple='#3b0764'
   const lightPurple='#581c87'
+  const almostWhitePurple='#e9d5ff'
+  
   
 
   return (
@@ -55,7 +57,7 @@ export function Navbar({open}) {
 
           </ul>
           <span className="text-light navbar-text">
-            <strong>
+            <strong style={{color:almostWhitePurple}}>
               <em>¡Vive tu experiencia!</em>
             </strong>
           </span>
