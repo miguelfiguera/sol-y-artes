@@ -35,7 +35,7 @@ export function Navbar({open}) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className=" text-light nav-link" to="/sol-y-artes/docentes">
+              <Link className=" text-light nav-link" to="/sol-y-artes/teachers">
                 Docentes
               </Link>
             </li>

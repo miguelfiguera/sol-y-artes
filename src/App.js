@@ -7,7 +7,7 @@ import { Contact } from "./components/contact";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
 import {useState} from 'react'
-
+import {Teachers} from "./components/teachers/teachers";
 
 
 
@@ -24,6 +24,7 @@ function App() {
           <Route exact path="/sol-y-artes/"  Component={Home} />
           <Route exact path="/sol-y-artes/about"  Component={About} />
           <Route exact path="/sol-y-artes/galery"  Component={Galery} />
+          <Route exact path="/sol-y-artes/teachers" Component={Teachers}/>
         </Routes>
         <Contact open={modal} closeModal={()=>setModal(false)}/>
         <Footer />

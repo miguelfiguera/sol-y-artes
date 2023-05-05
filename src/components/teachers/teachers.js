@@ -1,7 +1,24 @@
 import React from 'react'
+import { theTeachers } from './teacherObjects'
+import {Teacher} from './teacher'
 
-export default function teachers() {
+
+export function Teachers() {
+  const darkOrange='#c2410c'
+
+
+
   return (
-    <div>teachers</div>
-  )
+
+<div className="container">
+
+<h2 className="text-center" style={{color:darkOrange}}> Nuestros Profesores</h2>
+
+<div className="container">
+  {theTeachers().map((t)=>{
+    return <Teacher object={t} key={t.id} />
+  })}
+</div>
+
+</div>  )
 }

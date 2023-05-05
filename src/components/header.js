@@ -19,8 +19,8 @@ background: 'linear-gradient(51deg, rgba(54,8,91,1) 25%, rgba(88,28,135,1) 50%, 
 }
 
   return (
-    <div className="page-header mb-0 pb-3" style={backgroundStyle} >
-      <div className="text-center">
+    <div className="page-header mb-0 pb-4" style={backgroundStyle} >
+      <div className="text-center pb-5 pt-5">
         <img
           src={logo}
           className="sol-y-artes-logo text-center rounded-circle shadow"
