@@ -34,7 +34,7 @@ export function About() {
   return (
     <div className="container">
       <div id="header"></div>
-      <div className="row align-items-start">
+      <div className="row ">
         <nav className="navbar navbar-expand-lg bg-light sticky-top">
           <div className="container-fluid">
             <button
@@ -87,7 +87,7 @@ export function About() {
         </nav>
       
 
-        <div className="col">
+        <div className="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <div id="vision" className="row mt-3 border-bottom border-dark">
             <h2 style={stylingDark}> Visión</h2>
             <p style={stylingDark} >

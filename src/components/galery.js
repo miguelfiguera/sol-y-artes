@@ -1,16 +1,26 @@
 import React from "react";
+import {Img} from './imgs'
 
 export function Galery(){
 
+
+  function importAll(r) {
+    return r.keys().map(r);
+  }
+  
+  const images = importAll(require.context('../graphic_resources/Galeria_estudiantes', false, /\.(png|jpe?g|svg)$/))
+
     return(
+<div className="container">
+           {    //fotos estudiantes
+}
 
-               //fotos estudiantes
-
+{}
 
 
                
-        //espacio para videos con estudiantes, de estudiantes o del profesor
-
+        {//espacio para videos con estudiantes, de estudiantes o del profesor
+           }
 
  
         <div id="carouselExampleCaptions" className="carousel slide text-center pt-5 pb-5 mt-0 mb-0" data-bs-ride="false" style={{backgroundColor: 'black'}}>
@@ -44,7 +54,7 @@ export function Galery(){
 </div>
 
 
-
+</div>
 
 
     )
