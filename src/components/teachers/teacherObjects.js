@@ -1,6 +1,6 @@
 // this may need uniqid()
 import uniqid from 'uniqid';
-import photoSolla from '../../graphic_resources/profile_pictures/photo1683218520.jpeg'
+import photoSolla from '../../graphic_resources/Galeria_estudiantes/victorSolla.png'
 import photoYoha from '../../graphic_resources/Galeria_estudiantes/Yohangelly De La Rosa Profesora de piano, canto y lenguaje.png'
 import photoYohan from '../../graphic_resources/profile_pictures/photo1683217769.jpeg'
 import photoRebeca from '../../graphic_resources/Galeria_estudiantes/RebecaUgas.png'
