@@ -2,7 +2,11 @@ import React from "react";
 import Plan1 from "../graphic_resources/Flyer cartel para clases de guitarra instrumentos música extraescolares fotográfico blanco y negro.png";
 import Plan2 from "../graphic_resources/Instagram story  instrumentos musicales oscuro blanco y negro .png";
 import Plan3 from "../graphic_resources/jazz club flyer -1 (2).png";
-import video from "../graphic_resources/Galeria_estudiantes/Solyartes.mp4"
+import video from "../graphic_resources/video5082427284611138643.mp4"
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css';
+
+
 export function Home() {
 
   const lightPurple='#581c87'
@@ -14,10 +18,7 @@ export function Home() {
   }
 
   return (
-    <div className="container">
-
-
-
+    <div className="container shadow">
 
       <div className="text-center">
         <h1 style={{color:darkOrange}}>Escuela Sol y Artes</h1>
@@ -27,6 +28,16 @@ export function Home() {
         </p>
       </div>
 
+
+      <Video autoPlay loop muted
+            controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+            poster="http://sourceposter.jpg"
+            onCanPlayThrough={() => {
+                // Do stuff
+            }}>
+            <source src={video} type="video/mp4" />
+            <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default />
+        </Video>
 
       <div className="container">
         <div className="row align-items-start mt-5 mb-5 border-bottom border-dark">
