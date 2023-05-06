@@ -113,7 +113,7 @@ export function About() {
             </p>
           </div>
 
-          <div id="ofrecemos" className="row mt-3 border-bottom border-dark">
+          <div id="ofrecemos" className="container row mt-3 border-bottom border-dark">
             <h2 style={stylingDark}> ¿Qué ofrecemos?</h2>{" "}
             <ol className="ms-5 me-5">
               <li style={stylingDark}>
@@ -160,7 +160,7 @@ export function About() {
           <div id="contenido" className="row mt-3 border-bottom border-dark">
             <h2 style={stylingDark}> Contenido de las Clases de Música</h2>{" "}
             <ol className="ms-5 me-5">
-              <div className="row align-items-start mt-3 border-right border-dark">
+              <div className="container row align-items-start mt-3 border-right border-dark">
                 <div className="col me-3">
                   <li style={stylingDark}> Comprensión del lenguaje musical</li>
                   <br />

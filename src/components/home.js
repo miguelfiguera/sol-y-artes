@@ -2,7 +2,7 @@ import React from "react";
 import Plan1 from "../graphic_resources/Flyer cartel para clases de guitarra instrumentos música extraescolares fotográfico blanco y negro.png";
 import Plan2 from "../graphic_resources/Instagram story  instrumentos musicales oscuro blanco y negro .png";
 import Plan3 from "../graphic_resources/jazz club flyer -1 (2).png";
-
+import video from "../graphic_resources/Galeria_estudiantes/Solyartes.mp4"
 export function Home() {
 
   const lightPurple='#581c87'
@@ -15,6 +15,10 @@ export function Home() {
 
   return (
     <div className="container">
+
+
+
+
       <div className="text-center">
         <h1 style={{color:darkOrange}}>Escuela Sol y Artes</h1>
         <p style={stylingDark}>
@@ -22,6 +26,7 @@ export function Home() {
           que prestamos servicios de clases particulares a domicilio y online.
         </p>
       </div>
+
 
       <div className="container">
         <div className="row align-items-start mt-5 mb-5 border-bottom border-dark">

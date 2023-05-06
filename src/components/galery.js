@@ -1,5 +1,6 @@
 import React from "react";
 import {Img} from './imgs'
+import uniqid from 'uniqid'
 
 export function Galery(){
 
@@ -10,12 +11,16 @@ export function Galery(){
   
   const images = importAll(require.context('../graphic_resources/Galeria_estudiantes', false, /\.(png|jpe?g|svg)$/))
 
+
     return(
 <div className="container">
-           {    //fotos estudiantes
-}
 
-{}
+<div className="container d-flex p-2 flex-wrap">
+{ images.map((e)=>{
+  return <Img obj={e} key={uniqid()}/>
+})}
+
+</div>
 
 
                
