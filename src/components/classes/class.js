@@ -1,9 +1,9 @@
 import React from "react";
 
-export function Class({ modality, theClass }) {
+export function Class({ modality, theClass,openModal }) {
+  const lightPurple = "#581c87";
 
-    // modify this to use the same construction as
-    // the img on the gallery
+
   return (
     
     <div className="card shadow ms-3 me-3 mt-3 mb-3" style={{maxWidth:"500px"}}>
