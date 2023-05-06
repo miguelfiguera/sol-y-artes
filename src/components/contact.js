@@ -49,7 +49,7 @@ export function Contact({ open, closeModal }) {
 
   return ReactDom.createPortal(
     <div className="container">
-      <div className="overlay" style={backdropStyles}>
+      <div className="overlay" style={backdropStyles} onClick={closeModal}>
         <div
           className=" row container-sm align-items-start rounded-3"
           style={modalStyles}

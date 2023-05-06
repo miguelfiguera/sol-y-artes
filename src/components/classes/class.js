@@ -1,7 +1,6 @@
 import React from "react";
 
 export function Class({ modality, theClass,openModal }) {
-  const lightPurple = "#581c87";
 
 
   return (

@@ -1,3 +1,30 @@
+# Pagina estatica creada con React.
+
+Esta pagina fue creada usando react y componentes funcionales debido a que es un poco mas veloz el trabajo y evita estar ligando las funciones a cada componente para colocarlas en contexto.
+
+Paquetes instalados:
+
+1. Formspree para enviar forms por correo a los encargados de la pagina, sin necesidad de un backend ni un mailer. Sencillo y de forma gratuita. Limitado a 50 avisos mensuales por ahora. La alternativa que se pensaba usar es esta:
+[toperkin](https://github.com/toperkin/staticFormEmails/blob/master/README.md)
+
+2. gh-pages para el deploy en github.
+
+3. react-html5video para el reproductor localizado en /home.
+
+4. react-router-dom para el routing de los componentes.
+
+5. react-router-hash-link para los anchor jumps de /about.
+
+6. uniqid() al ser una pagina estática, requiere que los id sean generados automáticamente para renderizar los arrays de objetos con un key unico.
+
+7. bootstrap se agregó usando cdn.
+
+8. fontawesome se agregó usando cdn.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +95,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `npm run deploy`
+
+This deploys the project directly to [this github page](https://github.com/miguelfiguera/sol-y-artes/settings/pages)

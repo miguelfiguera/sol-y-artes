@@ -23,8 +23,9 @@ export function Navbar({ open }) {
           aria-controls="navbarText"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style={{backgroundColor:lightPurple}}
-        ><i class="fa-solid fa-bars fa-lg" style={{color:"#d4d4d4"}}></i>
+          style={{ backgroundColor: lightPurple }}
+        >
+          <i class="fa-solid fa-bars fa-lg" style={{ color: "#d4d4d4" }}></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">

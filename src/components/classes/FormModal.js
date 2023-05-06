@@ -1,11 +1,17 @@
 import React from "react";
 import ReactDom from "react-dom";
 import { useForm, ValidationError } from "@formspree/react";
+import { useState } from "react";
 
 export function FormModal({ open, closeModal }) {
   const lightPurple = "#581c87";
-
+  const [viewport, setViewport] = useState(window.innerWidth);
   const [state, handleSubmit] = useForm("xnqywwnw");
+
+  window.addEventListener("resize", () => {
+    setViewport(window.innerWidth);
+  });
+
   if (state.succeeded) {
     return <p>Gracias por escribir! Te responderemos pronto!</p>;
   }
@@ -40,7 +46,7 @@ export function FormModal({ open, closeModal }) {
 
   return ReactDom.createPortal(
     <div className="container">
-      <div style={backdropStyles}>
+      <div style={backdropStyles} onClick={closeModal}>
         <form onSubmit={handleSubmit} style={modalStyles} className="rounded-3">
           <div className="mb-3">
             <label for="full-name" className="form-label text-light">
@@ -92,13 +98,19 @@ export function FormModal({ open, closeModal }) {
             >
               Enviar
             </button>
-            <button
-              type="button"
-              className="btn btn-danger mt-2 ms-5"
-              onClick={closeModal}
-            >
-              Cancelar
-            </button>
+
+            
+            {viewport < 650 ? (
+              <div />
+            ) : (
+              <button
+                type="button"
+                className="btn btn-danger mt-2 ms-5"
+                onClick={closeModal}
+              >
+                Cancelar
+              </button>
+            )}
           </div>
         </form>
       </div>

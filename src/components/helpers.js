@@ -4,12 +4,12 @@ import photoSolla from "../graphic_resources/profile_pictures/victorSolla.png";
 import photoYoha from "../graphic_resources/profile_pictures/Yohangelly De La Rosa Profesora de piano, canto y lenguaje.png";
 import photoYohan from "../graphic_resources/profile_pictures/photo1683217769.jpeg";
 import photoRebeca from "../graphic_resources/profile_pictures/RebecaUgas.png";
-import photoInstrument from '../graphic_resources/Galeria_estudiantes/Canto.png'
-import photoTaller from '../graphic_resources/Galeria_estudiantes/Iniciación musical 2 .png'
-import photoEnsamble from '../graphic_resources/Galeria_estudiantes/Ensamble 1.png'
-import photoConcierto from '../graphic_resources/Galeria_estudiantes/Conciertos 1.png'
-import photoArmonia from '../graphic_resources/Galeria_estudiantes/Clases online.png'
-import photoGrabaciones from '../graphic_resources/Galeria_estudiantes/Ensamble 3.png'
+import photoInstrument from "../graphic_resources/Galeria_estudiantes/Canto.png";
+import photoTaller from "../graphic_resources/Galeria_estudiantes/Iniciación musical 2 .png";
+import photoEnsamble from "../graphic_resources/Galeria_estudiantes/Ensamble 1.png";
+import photoConcierto from "../graphic_resources/Galeria_estudiantes/Conciertos 1.png";
+import photoArmonia from "../graphic_resources/Galeria_estudiantes/Clases online.png";
+import photoGrabaciones from "../graphic_resources/Galeria_estudiantes/Ensamble 3.png";
 
 const teachers = [
   {
@@ -38,8 +38,10 @@ const teachers = [
     id: uniqid(),
     photo: photoYohan,
     name: "Yohannazareth De La Rosa",
-    resume: "Hola! soy Yohannazaret De La Rosa,  egresado de la licenciatura en piano de la Universidad de las Artes y con formación musical pianística del Conservatorio Nacional de Música Juan José Landaeta,  en Caracas Venezuela. Tengo más de 10 años de experiencia como profesor de música en general,  piano y composición. En cuanto a la técnica pianistica empleo la que me enseñaron mis maestros que estudiaron en el conservatorio de Moscú y de Vienna. ",
-    resume2: "En mis clases me gusta trabajar de acuerdo a las necesidades y metas que quieren alcanzar mis alumnos. Poseeo una gran diversidad de repertorio musical según los gustos y géneros que deseen mis estudiantes. Y para mi es de suma importancia que mis alumnos crezcan artisticamente según el proceso natural de cada uno de ellos y su ritmo de aprendizaje. ¡Estaré dispuesto a ayudarte en lograr tus metas artísticas en el piano, la composición y otros elementos referentes a la música!",
+    resume:
+      "Hola! soy Yohannazaret De La Rosa,  egresado de la licenciatura en piano de la Universidad de las Artes y con formación musical pianística del Conservatorio Nacional de Música Juan José Landaeta,  en Caracas Venezuela. Tengo más de 10 años de experiencia como profesor de música en general,  piano y composición. En cuanto a la técnica pianistica empleo la que me enseñaron mis maestros que estudiaron en el conservatorio de Moscú y de Vienna. ",
+    resume2:
+      "En mis clases me gusta trabajar de acuerdo a las necesidades y metas que quieren alcanzar mis alumnos. Poseeo una gran diversidad de repertorio musical según los gustos y géneros que deseen mis estudiantes. Y para mi es de suma importancia que mis alumnos crezcan artisticamente según el proceso natural de cada uno de ellos y su ritmo de aprendizaje. ¡Estaré dispuesto a ayudarte en lograr tus metas artísticas en el piano, la composición y otros elementos referentes a la música!",
     instagram: "",
     youtube: "",
   },
@@ -59,7 +61,6 @@ export function theTeachers() {
 }
 
 // Para los cursos
-
 
 const Services = [
   {
