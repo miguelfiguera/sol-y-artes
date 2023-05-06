@@ -15,7 +15,7 @@ export  function Classes() {
     <h1 className="text-center mt-3 mb-4" style={{color:darkOrange}}> Clases y Servicios </h1>
 
 
-    <div className='row row-cols-1 row-cols-md-2 g-4'>
+    <div className='container d-flex p-2 flex-wrap justify-content-center'>
     {theCourses().map((e)=>{
         return <Class theClass={e} key={e.id} modality={theServices}/>
     })}

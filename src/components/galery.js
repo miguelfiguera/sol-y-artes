@@ -16,7 +16,7 @@ export function Galery() {
   );
 
   return (
-    <div className="">
+    <div className="container">
       <div className="container d-flex p-2 flex-wrap justify-content-center">
         {images.map((e) => {
           return <Img obj={e} key={uniqid()} />;

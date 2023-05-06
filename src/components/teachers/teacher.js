@@ -6,13 +6,13 @@ export function Teacher({ object }) {
   return object.resume === "" ? (
     <div />
   ) : (
-    <div class="card mb-3 border rounded-3 shadow">
+    <div class="card mb-3 border rounded-3 shadow-lg">
       <div class="row g-0">
         <div class="col-md-4">
           <img
             src={object.photo}
             class="img-fluid rounded-start"
-            alt="Picture of the Teacher"
+            alt="the Teacher"
             stlye={{ maxWidth: "350px", maxHeigth: "350px" }}
           />
         </div>
