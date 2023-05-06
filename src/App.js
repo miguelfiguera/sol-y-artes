@@ -8,6 +8,7 @@ import { About } from "./components/about";
 import { Footer } from "./components/footer";
 import {useState} from 'react'
 import {Teachers} from "./components/teachers/teachers";
+import {Classes} from './components/classes/classes'
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/sol-y-artes/about"  Component={About} />
           <Route exact path="/sol-y-artes/galery"  Component={Galery} />
           <Route exact path="/sol-y-artes/teachers" Component={Teachers}/>
+          <Route exact path="sol-y-artes/clases" Component={Classes} />
         </Routes>
         <Contact open={modal} closeModal={()=>setModal(false)}/>
         <Footer />

@@ -38,6 +38,7 @@ export function Home() {
             <source src={video} type="video/mp4" />
             <track label="English" kind="subtitles" srcLang="en" src="http://source.vtt" default />
         </Video>
+        
 
       <div className="container">
         <div className="row align-items-start mt-5 mb-5 border-bottom border-dark">

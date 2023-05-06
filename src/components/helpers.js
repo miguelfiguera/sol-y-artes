@@ -1,9 +1,9 @@
 // this may need uniqid()
 import uniqid from 'uniqid';
-import photoSolla from '../../graphic_resources/profile_pictures/victorSolla.png'
-import photoYoha from '../../graphic_resources/profile_pictures/Yohangelly De La Rosa Profesora de piano, canto y lenguaje.png'
-import photoYohan from '../../graphic_resources/profile_pictures/photo1683217769.jpeg'
-import photoRebeca from '../../graphic_resources/profile_pictures/RebecaUgas.png'
+import photoSolla from '../graphic_resources/profile_pictures/victorSolla.png'
+import photoYoha from '../graphic_resources/profile_pictures/Yohangelly De La Rosa Profesora de piano, canto y lenguaje.png'
+import photoYohan from '../graphic_resources/profile_pictures/photo1683217769.jpeg'
+import photoRebeca from '../graphic_resources/profile_pictures/RebecaUgas.png'
 
 
 
@@ -49,3 +49,6 @@ youtube:'',
 export function theTeachers() {
   return teachers;
 }
+
+
+const Services=[{}]

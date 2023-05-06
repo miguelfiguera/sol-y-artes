@@ -1,5 +1,5 @@
 import React from 'react'
-import { theTeachers } from './teacherObjects'
+import { theTeachers } from '../helpers'
 import {Teacher} from './teacher'
 
 

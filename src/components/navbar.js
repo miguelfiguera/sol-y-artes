@@ -35,15 +35,16 @@ export function Navbar({open}) {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className=" text-light nav-link" to="/sol-y-artes/clases">
+                ¿Qué Ofrecemos?
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className=" text-light nav-link" to="/sol-y-artes/teachers">
                 Docentes
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className=" text-light nav-link" to="/sol-y-artes/clases">
-                Paquetes/clases
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="text-light nav-link" to="/sol-y-artes/galery">
                 Galería
