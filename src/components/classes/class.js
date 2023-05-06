@@ -1,6 +1,9 @@
 import React from "react";
 
 export function Class({ modality, theClass }) {
+
+    // modify this to use the same construction as
+    // the img on the gallery
   return (
     
     <div className="col">
