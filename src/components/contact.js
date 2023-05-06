@@ -1,24 +1,20 @@
 import React from "react";
 import ReactDom from "react-dom";
 import logo from "../graphic_resources/Logo_y_Profesores/Solyartes sin lema.png";
-import {useState,useEffect} from 'react'
-
+import { useState, useEffect } from "react";
 
 export function Contact({ open, closeModal }) {
-  const [viewport,setViewport] = useState(window.innerWidth)
+  const [viewport, setViewport] = useState(window.innerWidth);
 
-  window.addEventListener('resize',()=>{
-    setViewport(window.innerWidth)
-  })
+  window.addEventListener("resize", () => {
+    setViewport(window.innerWidth);
+  });
 
-
-
-  
   if (open === false) {
     return null;
   }
 
-  const lightPurple='#581c87'
+  const lightPurple = "#581c87";
   const darkOrange = "#c2410c";
   const modalStyles = {
     position: "fixed",
@@ -62,10 +58,12 @@ export function Contact({ open, closeModal }) {
 
           <div className="col mt-3">
             <ul className="mb-0">
-              <li className="text-light mb-3">Telf: +58 424-2341510</li> 
-              <li className="text-light mb-3">Correo: solyartes@hotmail.com </li> 
+              <li className="text-light mb-3">Telf: +58 424-2341510</li>
               <li className="text-light mb-3">
-                Instagram: @escuela.solyartes   
+                Correo: solyartes@hotmail.com{" "}
+              </li>
+              <li className="text-light mb-3">
+                Instagram: @escuela.solyartes
                 <a href="https://www.instagram.com/escuela.solyartes/">
                   <i
                     className="fa-brands fa-instagram fa-lg"
@@ -93,19 +91,23 @@ export function Contact({ open, closeModal }) {
               </li>
             </ul>
           </div>
-          {viewport > 560 ? <img
-          id='contact-logo'
-            className="col rounded-circle shadow"
-            src={logo}
-            style={imgSize}
-            alt="Logo Sol y Artes"
-          /> : <div ></div>}
+          {viewport > 560 ? (
+            <img
+              id="contact-logo"
+              className="col rounded-circle shadow"
+              src={logo}
+              style={imgSize}
+              alt="Logo Sol y Artes"
+            />
+          ) : (
+            <div></div>
+          )}
           <div class="modal-footer">
             <button
               type="button"
               className="btn btn-secondary mt-0"
               onClick={closeModal}
-              style={{backgroundColor:lightPurple}}
+              style={{ backgroundColor: lightPurple }}
             >
               Close
             </button>

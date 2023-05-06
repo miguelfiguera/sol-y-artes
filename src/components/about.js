@@ -1,35 +1,31 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import {useState} from 'react'
-
+import { useState } from "react";
 
 export function About() {
+  const [viewport, setViewport] = useState(window.innerWidth);
 
-  const [viewport,setViewport] = useState(window.innerWidth)
+  window.addEventListener("resize", () => {
+    setViewport(window.innerWidth);
+  });
 
-  window.addEventListener('resize',()=>{
-    setViewport(window.innerWidth)
-  })
+  function toggleCollapsed() {
+    if (viewport < 995) {
+      let navbar = document.getElementById("navbarNavDropdown");
+      let button = document.getElementById("buttonOfAbout");
 
-
-  function toggleCollapsed(){
-    if(viewport<995){ 
-    let navbar=document.getElementById('navbarNavDropdown')
-    let button=document.getElementById('buttonOfAbout')
-
-    navbar.classList.toggle('show')
-    button.classList.toggle('collapsed')}
-  }
-  
-
-  const lightPurple='#581c87'
-  const darkOrange='#c2410c'
-  const darkPurple='#3b0764'
-
-  const stylingDark={
-    color:darkPurple
+      navbar.classList.toggle("show");
+      button.classList.toggle("collapsed");
+    }
   }
 
+  const lightPurple = "#581c87";
+  const darkOrange = "#c2410c";
+  const darkPurple = "#3b0764";
+
+  const stylingDark = {
+    color: darkPurple,
+  };
 
   return (
     <div className="container">
@@ -38,7 +34,7 @@ export function About() {
         <nav className="navbar navbar-expand-lg bg-light sticky-top">
           <div className="container-fluid">
             <button
-              id='buttonOfAbout'
+              id="buttonOfAbout"
               className="navbar-toggler sticky-top"
               type="button"
               data-bs-toggle="collapse"
@@ -52,45 +48,80 @@ export function About() {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#vision" onClick={toggleCollapsed}>
-                  Visión
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#vision"
+                      onClick={toggleCollapsed}
+                    >
+                      Visión
+                    </Link>
+                  </strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#mision"onClick={toggleCollapsed}>
-                  Misión
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#mision"
+                      onClick={toggleCollapsed}
+                    >
+                      Misión
+                    </Link>
+                  </strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#ofrecemos" onClick={toggleCollapsed}>
-                  Oportunidades
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#ofrecemos"
+                      onClick={toggleCollapsed}
+                    >
+                      Oportunidades
+                    </Link>
+                  </strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#contenido"onClick={toggleCollapsed}>
-                  Contenido
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#contenido"
+                      onClick={toggleCollapsed}
+                    >
+                      Contenido
+                    </Link>
+                  </strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#acuerdos"onClick={toggleCollapsed}>
-                  Acuerdos
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#acuerdos"
+                      onClick={toggleCollapsed}
+                    >
+                      Acuerdos
+                    </Link>
+                  </strong>
                 </li>
                 <li className="nav-item">
-                  <strong><Link className="nav-link" to="/sol-y-artes/about#header"onClick={toggleCollapsed}>
-                  Top Page
-                  </Link></strong>
+                  <strong>
+                    <Link
+                      className="nav-link"
+                      to="/sol-y-artes/about#header"
+                      onClick={toggleCollapsed}
+                    >
+                      Top Page
+                    </Link>
+                  </strong>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-      
 
         <div className="container shadow-lg p-3 mb-5 bg-body-tertiary rounded">
           <div id="vision" className="row mt-3 border-bottom border-dark">
             <h2 style={stylingDark}> Visión</h2>
-            <p style={stylingDark} >
+            <p style={stylingDark}>
               Tenemos la certeza con base a estudios científicos y humanísticos
               de que el estudio de las artes musicales tiene una fuerte
               influencia en el proceso del desarrollo cognitivo, psicomotor y
@@ -113,7 +144,10 @@ export function About() {
             </p>
           </div>
 
-          <div id="ofrecemos" className="container row mt-3 border-bottom border-dark">
+          <div
+            id="ofrecemos"
+            className="container row mt-3 border-bottom border-dark"
+          >
             <h2 style={stylingDark}> ¿Qué ofrecemos?</h2>{" "}
             <ol className="ms-5 me-5">
               <li style={stylingDark}>
@@ -141,7 +175,9 @@ export function About() {
                 gubernamentales.
               </li>
               <br />
-              <li style={stylingDark}>Ofrecemos múltiples paquetes y promociones.</li>
+              <li style={stylingDark}>
+                Ofrecemos múltiples paquetes y promociones.
+              </li>
               <br />
               <li style={stylingDark}>
                 Organizamos conciertos anuales presenciales en una sala acordada
@@ -164,7 +200,9 @@ export function About() {
                 <div className="col me-3">
                   <li style={stylingDark}> Comprensión del lenguaje musical</li>
                   <br />
-                  <li style={stylingDark}>Desarrollo y comprensión de la lectoescritura musical</li>
+                  <li style={stylingDark}>
+                    Desarrollo y comprensión de la lectoescritura musical
+                  </li>
                   <br />
                   <li style={stylingDark}>
                     Desarrollo del oído rítmico y auditivo (melódico y armónico)
@@ -172,7 +210,9 @@ export function About() {
                   <br />
                   <li style={stylingDark}>Desarrollo de la entonación</li>
                   <br />
-                  <li style={stylingDark}>Desarrollo de la lateralidad rítmica corporal</li>
+                  <li style={stylingDark}>
+                    Desarrollo de la lateralidad rítmica corporal
+                  </li>
                   <br />
                   <li style={stylingDark}>
                     Aplicación de los recursos teóricos musicales al instrumento
@@ -237,10 +277,15 @@ export function About() {
           </div>
 
           <div id="acuerdos" className="row ">
-            <h2 style={stylingDark} className="text-center mt-4">Acuerdos</h2> <br />
+            <h2 style={stylingDark} className="text-center mt-4">
+              Acuerdos
+            </h2>{" "}
+            <br />
             <div className="mt-4 row align-items-start">
               <div className="col">
-                <h3 style={stylingDark} className="text-center">Academicos: </h3>
+                <h3 style={stylingDark} className="text-center">
+                  Academicos:{" "}
+                </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
                     Poseer el material indicado por el docente: libros (copia o
@@ -261,11 +306,15 @@ export function About() {
                     docente.
                   </li>{" "}
                   <br />
-                  <li style={stylingDark}>Participar en los recitales organizados en el año</li>
+                  <li style={stylingDark}>
+                    Participar en los recitales organizados en el año
+                  </li>
                 </ul>
               </div>
               <div className="col">
-                <h3 style={stylingDark} className="text-center">Horario:</h3>
+                <h3 style={stylingDark} className="text-center">
+                  Horario:
+                </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
                     Por cuestiones de dificultades de reprogramación horaria
@@ -285,7 +334,9 @@ export function About() {
                 </ul>
               </div>
               <div className="col">
-                <h3 style={stylingDark} className="text-center">Administrativos:</h3>
+                <h3 style={stylingDark} className="text-center">
+                  Administrativos:
+                </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
                     Contribuir con los honorarios respectivos para alquiler de

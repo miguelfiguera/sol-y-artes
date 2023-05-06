@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export function Img({obj}) {
+export function Img({ obj }) {
   return (
-<div className="card" style={{width: "18rem"}}>
-  <img src={obj} className="card-img-top" alt="Student"/>
-</div> 
- )
+    <div className="card" style={{ width: "18rem" }}>
+      <img src={obj} className="card-img-top" alt="Student" />
+    </div>
+  );
 }

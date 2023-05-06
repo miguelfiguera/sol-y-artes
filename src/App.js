@@ -6,29 +6,26 @@ import { Galery } from "./components/galery";
 import { Contact } from "./components/contact";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
-import {useState} from 'react'
-import {Teachers} from "./components/teachers/teachers";
-import {Classes} from './components/classes/classes'
-
-
+import { useState } from "react";
+import { Teachers } from "./components/teachers/teachers";
+import { Classes } from "./components/classes/classes";
 
 function App() {
-  const [modal,setModal] = useState(false);
-
+  const [modal, setModal] = useState(false);
 
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Navbar open={()=>setModal(true)} />
+        <Navbar open={() => setModal(true)} />
         <Routes>
-          <Route exact path="/sol-y-artes/"  Component={Home} />
-          <Route exact path="/sol-y-artes/about"  Component={About} />
-          <Route exact path="/sol-y-artes/galery"  Component={Galery} />
-          <Route exact path="/sol-y-artes/teachers" Component={Teachers}/>
+          <Route exact path="/sol-y-artes/" Component={Home} />
+          <Route exact path="/sol-y-artes/about" Component={About} />
+          <Route exact path="/sol-y-artes/galery" Component={Galery} />
+          <Route exact path="/sol-y-artes/teachers" Component={Teachers} />
           <Route exact path="sol-y-artes/clases" Component={Classes} />
         </Routes>
-        <Contact open={modal} closeModal={()=>setModal(false)}/>
+        <Contact open={modal} closeModal={() => setModal(false)} />
         <Footer />
       </div>
     </BrowserRouter>
