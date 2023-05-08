@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sol-y-artes/static/css/main.881efd82.css",
-    "main.js": "/sol-y-artes/static/js/main.40746ab1.js",
+    "main.js": "/sol-y-artes/static/js/main.70a86300.js",
     "static/js/787.bfd2fb2a.chunk.js": "/sol-y-artes/static/js/787.bfd2fb2a.chunk.js",
     "static/media/jazz club flyer -1 (2).png": "/sol-y-artes/static/media/jazz club flyer -1 (2).ea687e35f61ff59e68dc.png",
     "static/media/videomp4": "/sol-y-artes/static/media/video5082427284611138643.4d45917de59797b08edc.mp4",
@@ -35,11 +35,11 @@
     "static/media/photo1683217769.jpeg": "/sol-y-artes/static/media/photo1683217769.e167f4829c58467534e7.jpeg",
     "index.html": "/sol-y-artes/index.html",
     "main.881efd82.css.map": "/sol-y-artes/static/css/main.881efd82.css.map",
-    "main.40746ab1.js.map": "/sol-y-artes/static/js/main.40746ab1.js.map",
+    "main.70a86300.js.map": "/sol-y-artes/static/js/main.70a86300.js.map",
     "787.bfd2fb2a.chunk.js.map": "/sol-y-artes/static/js/787.bfd2fb2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.881efd82.css",
-    "static/js/main.40746ab1.js"
+    "static/js/main.70a86300.js"
   ]
 }
