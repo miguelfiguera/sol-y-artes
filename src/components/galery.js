@@ -60,7 +60,7 @@ export function Galery() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/XYlEdtVX2PY"
+              src="https://www.youtube.com/watch?v=XzQyRyld6YU&ab_channel=EscuelaSolyartes"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -71,7 +71,7 @@ export function Galery() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/ZVmtlSLJa1E"
+              src="https://www.youtube.com/watch?v=vMzu9nmi-VU&t=9s&ab_channel=EscuelaSolyartes"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -5,7 +5,7 @@ Esta pagina fue creada usando react y componentes funcionales debido a que es un
 Paquetes instalados:
 
 1. Formspree para enviar forms por correo a los encargados de la pagina, sin necesidad de un backend ni un mailer. Sencillo y de forma gratuita. Limitado a 50 avisos mensuales por ahora. La alternativa que se pensaba usar es esta:
-[toperkin](https://github.com/toperkin/staticFormEmails/blob/master/README.md)
+[toperkin](https://github.com/toperkin/staticFormEmails/blob/master/README.md).
 
 2. gh-pages para el deploy en github.
 
