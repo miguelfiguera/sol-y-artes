@@ -56,26 +56,27 @@ export function Galery() {
           ></button>
         </div>
         <div className="carousel-inner">
+
           <div className="carousel-item active">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/watch?v=XzQyRyld6YU&ab_channel=EscuelaSolyartes"
+              src="https://www.youtube.com/embed/vMzu9nmi-VU"
               title="YouTube video player"
-              frameBorder="0"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
+              allowfullscreen
             ></iframe>
           </div>
           <div className="carousel-item">
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/watch?v=vMzu9nmi-VU&t=9s&ab_channel=EscuelaSolyartes"
+              src="https://www.youtube.com/embed/XzQyRyld6YU"
               title="YouTube video player"
-              frameBorder="0"
+              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
+              allowfullscreen
             ></iframe>
           </div>
           <div className="carousel-item">
