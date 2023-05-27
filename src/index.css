@@ -13,6 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App{
+  /*eliminar este espacio de ser necesario*/
+  background: #f5d0fe;
+  background-clip: padding-box;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

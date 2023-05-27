@@ -7,7 +7,7 @@ export function Navbar({ open }) {
   const almostWhitePurple = "#e9d5ff";
 
   return (
-    <nav className="navbar navbar-expand-lg bg-light mt-0 pt-0">
+    <nav className="navbar navbar-expand-lg bg-light mt-0 pt-0 mb-0 pb-0">
       <div
         className="container-fluid mt-0 pt-0"
         style={{ backgroundColor: darkPurple }}

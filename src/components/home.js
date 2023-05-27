@@ -18,8 +18,8 @@ export function Home() {
 
 
   return (
-    <div className="container shadow-lg pt-5 mt-0">
-      <div className="text-center">
+    <div className="container shadow-lg rounded-3 pt-5 mt-0" style={{backgroundColor:'white'}}>
+      <div className="text-center rounded-3" >
         <h1 style={{ color: darkOrange,scale:'1.5',width:'calc(100%/1.5)' }} className="my-3 mx-auto">Escuela Solyartes</h1>
 
       </div>
