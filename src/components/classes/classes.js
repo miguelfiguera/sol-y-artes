@@ -25,7 +25,7 @@ export function Classes() {
           <FormModal open={modal} closeModal={() => setModal(false)} />
         </div>
       </div>
-      {modal === true ? (
+      {/*modal === true ? (
         <div />
       ) : (
         <div class="modal-footer sticky-bottom">
@@ -38,7 +38,7 @@ export function Classes() {
             Contactanos!
           </button>
         </div>
-      )}
+      )*/}
     </div>
   );
 }
