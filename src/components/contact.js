@@ -66,7 +66,7 @@ export function Contact({ open, closeModal }) {
                 Instagram: @escuela.solyartes
                 <a href="https://www.instagram.com/escuela.solyartes/">
                   <i
-                    className="fa-brands fa-instagram fa-lg"
+                    className="fa-brands fa-instagram fa-xl"
                     style={{ color: darkOrange }}
                   ></i>{" "}
                 </a>
@@ -75,7 +75,7 @@ export function Contact({ open, closeModal }) {
                 Whatsapp:{" "}
                 <a href={`https://wa.me/584242341510?text=${text}`}>
                   <i
-                    className="fa-brands fa-whatsapp fa-lg"
+                    className="fa-brands fa-whatsapp fa-xl"
                     style={{ color: darkOrange }}
                   ></i>{" "}
                 </a>
@@ -84,7 +84,7 @@ export function Contact({ open, closeModal }) {
                 Youtube:{" "}
                 <a href="https://www.youtube.com/@victorsolla/videos">
                   <i
-                    className="fa-brands fa-youtube fa-lg"
+                    className="fa-brands fa-youtube fa-xl"
                     style={{ color: darkOrange }}
                   ></i>
                 </a>
