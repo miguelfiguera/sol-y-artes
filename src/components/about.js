@@ -109,7 +109,7 @@ export function About() {
                       to="/sol-y-artes/about#header"
                       onClick={toggleCollapsed}
                     >
-                      Top Page
+                      Ir arriba
                     </Link>
                   </strong>
                 </li>
@@ -186,9 +186,8 @@ export function About() {
               </li>
               <br />
               <li style={stylingDark}>
-                Organizamos clases abiertas online o en la sede en fechas
-                especiales (día de la amistad, día de la madre, día del padre)
-                previo acuerdo con los docentes, alumnos y representantes.
+                Organizamos clases abiertas online o presenciales en fechas
+                especiales previo acuerdo con los docentes, alumnos y representantes.
               </li>
               <br />
             </ol>
@@ -238,7 +237,7 @@ export function About() {
                   <li style={stylingDark}>
                     Montaje de repertorio diversos en las áreas de interés del
                     estudiante y lo recomendado por el profesor (académica,
-                    popular o tradicional)
+                    popular,jazz o tradicional)
                   </li>
                   <br />
                   <li style={stylingDark}>
@@ -265,9 +264,8 @@ export function About() {
                   </li>
                   <br />
                   <li style={stylingDark}>
-                    Participación en las clases abiertas online o en la sede en
-                    fechas especiales (día de la amistad, día de la madre, día
-                    del padre) previo acuerdo con los docentes, alumnos y
+                    Participación en las clases abiertas online o presenciales en
+                    fechas especiales, previo acuerdo con los docentes, alumnos y
                     representantes.
                   </li>
                   <br />
@@ -288,26 +286,12 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                    Poseer el material indicado por el docente: libros (copia o
-                    pdf), artículos escolares (colores, lápices, cuaderno u
-                    hojas pentagramadas, agenda o cuaderno de línea,
-                    instrumento-no limitativo).
+                  Poseer el material indicado por el docente.
                   </li>{" "}
+
                   <br />
                   <li style={stylingDark}>
-                    El representante debe estar en los alrededores de la clase
-                    en caso de que se presente algún requerimiento por parte del
-                    docente o el alumno.
-                  </li>{" "}
-                  <br />
-                  <li style={stylingDark}>
-                    Dar apoyo en la semana en la práctica del instrumento,
-                    repertorio o realización de las actividades asignadas por el
-                    docente.
-                  </li>{" "}
-                  <br />
-                  <li style={stylingDark}>
-                    Participar en los recitales organizados en el año
+                    Participar en los recitales organizados en el año.
                   </li>
                 </ul>
               </div>
@@ -317,20 +301,8 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                    Por cuestiones de dificultades de reprogramación horaria
-                    para la recuperación de las clases el alumno y el docente
-                    deben hacer lo posible para cumplir con las actividades en
-                    el horario acordado. Situaciones de faltas especiales deben
-                    ser avisadas al docente tres horas antes para acordar una
-                    posible recuperación. (sólo aplica para clases online o a
-                    domicilio)
+                  'El horario se fijara en acuerdo con la disponibilidad del docente y el alumno, asi mismo el horario de clases de recuperacion'.
                   </li>{" "}
-                  <br />
-                  <li style={stylingDark}>
-                    En caso de inasistencia del docente en una clase del horario
-                    oficial acordado entre las partes, se descuenta del
-                    siguiente pago mensual.{" "}
-                  </li>
                 </ul>
               </div>
               <div className="col">
@@ -339,18 +311,12 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                    Contribuir con los honorarios respectivos para alquiler de
-                    sala en los recitales (de ser necesario).
+                  Cumplir con los honorarios respectivos para alquiler de sala en los recitales y grabaciones.
                   </li>{" "}
                   <br />
                   <li style={stylingDark}>
-                    Cumplir con los pagos en las fechas de corte de cada alumno.
+                  Cumplir con los pagos los primeros 5 dias de cada mes.
                   </li>{" "}
-                  <br />
-                  <li style={stylingDark}>
-                    Los pagos se realizan contando la primera clase del corte
-                    según el paquete elegido.
-                  </li>
                 </ul>
               </div>
             </div>

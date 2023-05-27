@@ -15,7 +15,7 @@ export function Classes() {
       <div className="container">
         <h1 className="text-center mt-3 mb-4" style={{ color: darkOrange }}>
           {" "}
-          Clases y Servicios{" "}
+          Clases{" "}
         </h1>
 
         <div className="container d-flex p-2 flex-wrap justify-content-center">

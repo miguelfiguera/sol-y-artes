@@ -3,7 +3,7 @@ import { Img } from "./imgs";
 import uniqid from "uniqid";
 
 export function Galery() {
-  function importAll(r) {
+  /*function importAll(r) {
     return r.keys().map(r);
   }
 
@@ -13,20 +13,16 @@ export function Galery() {
       false,
       /\.(png|jpe?g|svg)$/
     )
-  );
+  );*/
 
   return (
     <div className="container">
-      <div className="container d-flex p-2 flex-wrap justify-content-center">
-        {images.map((e) => {
-          return <Img obj={e} key={uniqid()} />;
-        })}
-      </div>
 
       {
         //espacio para videos con estudiantes, de estudiantes o del profesor
+        //Dividir espacio con divs identificados en:
+        //Ensambles, conciertos y clases cuando esten los videos.
       }
-
       <div
         id="carouselExampleCaptions"
         className="carousel slide text-center pt-5 pb-5 mt-0 mb-0"

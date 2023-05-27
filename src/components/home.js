@@ -15,14 +15,13 @@ export function Home() {
     color: darkPurple,
   };
 
+
+
   return (
-    <div className="container shadow">
+    <div className="container shadow-lg pt-5 mt-0">
       <div className="text-center">
-        <h1 style={{ color: darkOrange }}>Escuela Sol y Artes</h1>
-        <p style={stylingDark}>
-          Somos una organización de músicos con formación profesional que
-          prestamos servicios de clases particulares a domicilio y online.
-        </p>
+        <h1 style={{ color: darkOrange,scale:'1.5',width:'calc(100%/1.5)' }} className="my-3 mx-auto">Escuela Solyartes</h1>
+
       </div>
 
       <Video

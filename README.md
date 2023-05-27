@@ -23,6 +23,36 @@ Paquetes instalados:
 
 
 
+Notas de la reunion 19/05/2023:
+
+
+
+home/
+
+Cambiar video para evitar la barrigota, Yoha lo hace.
+cambiar fondo del fondo <body>
+
+
+
+
+Contenido de las clases/
+
+Ensambles musicales (piano a 4 manos, piano-voz, banda popular.)
+
+Galeria/
+
+Solo videos de los estudiantes tocando, ensayando y de los profesores dando clases.
+
+Clasificar la galeria segun: ensambles, conciertos y clases.
+
+## /navBar
+
+Hacer dropdown para cada elemento:
+
+ Paginas para cada uno de estos elementos, buen routing.
+
+
+
 
 
 # Getting Started with Create React App
