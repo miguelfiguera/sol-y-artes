@@ -30,14 +30,14 @@ function App() {
           <Route exact path="/sol-y-artes/about" Component={About} />
           <Route exact path="/sol-y-artes/galery" Component={Galery} />
           <Route exact path="/sol-y-artes/teachers" Component={Teachers} />
-          <Route exact path="sol-y-artes/clases" Component={Classes} />
-          <Route exact path="sol-y-artes/clases/canto" Component={Canto}/>
-          <Route exact path="sol-y-artes/clases/conciertos" Component={Conciertos}/>
-          <Route exact path="sol-y-artes/clases/ensambles" Component={Ensambles}/>
-          <Route exact path="sol-y-artes/clases/iniciacion-musical" Component={IniciacionMusical}/>
-          <Route exact path="sol-y-artes/clases/instrumentos" Component={Instrumentos}/>
-          <Route exact path="sol-y-artes/clases/pre-y-postnatal" Component={PreyPostnatal}/>
-          <Route exact path="sol-y-artes/clases/teoria-y-armonia" Component={TeoriaYArmonia}/>
+          <Route exact path="/sol-y-artes/clases" Component={Classes} />
+          <Route exact path="/sol-y-artes/clases/canto" Component={Canto}/>
+          <Route exact path="/sol-y-artes/clases/conciertos" Component={Conciertos}/>
+          <Route exact path="/sol-y-artes/clases/ensambles" Component={Ensambles}/>
+          <Route exact path="/sol-y-artes/clases/iniciacion-musical" Component={IniciacionMusical}/>
+          <Route exact path="/sol-y-artes/clases/instrumentos" Component={Instrumentos}/>
+          <Route exact path="/sol-y-artes/clases/pre-y-postnatal" Component={PreyPostnatal}/>
+          <Route exact path="/sol-y-artes/clases/teoria-y-armonia" Component={TeoriaYArmonia}/>
         </Routes>
         <Contact open={modal} closeModal={() => setModal(false)} />
         <Footer />

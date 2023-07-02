@@ -55,37 +55,37 @@ export function Navbar({ open }) {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/pre-y-postnatal">
                     Musica Pre y Postnatal
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/iniciacion-musical">
                     Iniciacion Musical
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/canto">
                     Canto
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/instrumentos">
                     Instrumentos
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/teoria-y-armonia">
                     Teoria y armonia
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/ensambles">
                     Ensambles
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="#">
+                  <Link className="dropdown-item" to="/sol-y-artes/clases/conciertos">
                     Conciertos
                   </Link>
                 </li>
