@@ -99,7 +99,6 @@ export function FormModal({ open, closeModal }) {
               Enviar
             </button>
 
-            
             {viewport < 650 ? (
               <div />
             ) : (

@@ -12,8 +12,7 @@ export function Header() {
     setViewport(window.innerWidth);
   });
 
-  const darkOrange = '#e64d11';
-
+  const darkOrange = "#e64d11";
 
   let backgroundStyle = {
     background: " rgb(54,8,91)",
@@ -21,7 +20,7 @@ export function Header() {
       "linear-gradient(51deg, rgba(54,8,91,1) 25%, rgba(88,28,135,1) 50%, rgba(54,8,91,1) 75%)",
   };
 
-//tipografia banhaus para debajo del logo "Tu escuela online y a domicilio."
+  //tipografia banhaus para debajo del logo "Tu escuela online y a domicilio."
 
   return (
     <div className="page-header mb-0 pb-4" style={backgroundStyle}>
@@ -31,7 +30,16 @@ export function Header() {
           className="sol-y-artes-logo text-center rounded-circle shadow-lg mb-0 pb-0 "
           alt="Sol y Artes Logo"
         ></img>
-        <h1 className="fs-3 mt-5 fw-bold fst-italic" style={{color:darkOrange,fontFamily:'Bauhaus Modern',translate:'0% 50%'}}>Tu escuela online y a domicilio.</h1>
+        <h1
+          className="fs-3 mt-5 fw-bold fst-italic"
+          style={{
+            color: darkOrange,
+            fontFamily: "Bauhaus Modern",
+            translate: "0% 50%",
+          }}
+        >
+          Tu escuela online y a domicilio.
+        </h1>
       </div>
     </div>
   );

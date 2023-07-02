@@ -187,7 +187,8 @@ export function About() {
               <br />
               <li style={stylingDark}>
                 Organizamos clases abiertas online o presenciales en fechas
-                especiales previo acuerdo con los docentes, alumnos y representantes.
+                especiales previo acuerdo con los docentes, alumnos y
+                representantes.
               </li>
               <br />
             </ol>
@@ -264,9 +265,9 @@ export function About() {
                   </li>
                   <br />
                   <li style={stylingDark}>
-                    Participación en las clases abiertas online o presenciales en
-                    fechas especiales, previo acuerdo con los docentes, alumnos y
-                    representantes.
+                    Participación en las clases abiertas online o presenciales
+                    en fechas especiales, previo acuerdo con los docentes,
+                    alumnos y representantes.
                   </li>
                   <br />
                 </div>
@@ -286,9 +287,8 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                  Poseer el material indicado por el docente.
+                    Poseer el material indicado por el docente.
                   </li>{" "}
-
                   <br />
                   <li style={stylingDark}>
                     Participar en los recitales organizados en el año.
@@ -301,7 +301,9 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                  'El horario se fijara en acuerdo con la disponibilidad del docente y el alumno, asi mismo el horario de clases de recuperacion'.
+                    'El horario se fijara en acuerdo con la disponibilidad del
+                    docente y el alumno, asi mismo el horario de clases de
+                    recuperacion'.
                   </li>{" "}
                 </ul>
               </div>
@@ -311,11 +313,12 @@ export function About() {
                 </h3>
                 <ul className="ms-5 me-5">
                   <li style={stylingDark}>
-                  Cumplir con los honorarios respectivos para alquiler de sala en los recitales y grabaciones.
+                    Cumplir con los honorarios respectivos para alquiler de sala
+                    en los recitales y grabaciones.
                   </li>{" "}
                   <br />
                   <li style={stylingDark}>
-                  Cumplir con los pagos los primeros 5 dias de cada mes.
+                    Cumplir con los pagos los primeros 5 dias de cada mes.
                   </li>{" "}
                 </ul>
               </div>

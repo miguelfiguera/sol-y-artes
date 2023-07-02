@@ -25,7 +25,10 @@ export function Navbar({ open }) {
           aria-label="Toggle navigation"
           style={{ backgroundColor: lightPurple }}
         >
-          <i className="fa-solid fa-bars fa-lg" style={{ color: "#d4d4d4" }}></i>
+          <i
+            className="fa-solid fa-bars fa-lg"
+            style={{ color: "#d4d4d4" }}
+          ></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -35,26 +38,61 @@ export function Navbar({ open }) {
               </Link>
             </li>
 
-
-
-
             <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle text-light" to="/sol-y-artes/clases" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Materias
-          </Link>
-          <ul className="dropdown-menu" style={{zIndex:'1040'}}>
-          <li><Link className="dropdown-item" to="/sol-y-artes/clases">Todos los Cursos</Link></li>
-            <li><Link className="dropdown-item" to="#">Musica Pre y Postnatal</Link></li>
-            <li><Link className="dropdown-item" to="#">Iniciacion Musical</Link></li>
-            <li><Link className="dropdown-item" to="#">Canto</Link></li>
-            <li><Link className="dropdown-item" to="#">Instrumentos</Link></li>
-            <li><Link className="dropdown-item" to="#">Teoria y armonia</Link></li>
-            <li><Link className="dropdown-item" to="#">Ensambles</Link></li>
-            <li><Link className="dropdown-item" to="#">Conciertos</Link></li>
-            {/*<li><hr className="dropdown-divider" /></li>
+              <Link
+                className="nav-link dropdown-toggle text-light"
+                to="/sol-y-artes/clases"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Materias
+              </Link>
+              <ul className="dropdown-menu" style={{ zIndex: "1040" }}>
+                <li>
+                  <Link className="dropdown-item" to="/sol-y-artes/clases">
+                    Todos los Cursos
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Musica Pre y Postnatal
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Iniciacion Musical
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Canto
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Instrumentos
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Teoria y armonia
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Ensambles
+                  </Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="#">
+                    Conciertos
+                  </Link>
+                </li>
+                {/*<li><hr className="dropdown-divider" /></li>
             <li><Link className="dropdown-item" href="#">Something else here</Link></li>*/}
-          </ul>
-        </li>
+              </ul>
+            </li>
 
             <li className="nav-item">
               <Link className=" text-light nav-link" to="/sol-y-artes/teachers">

@@ -63,7 +63,10 @@ export function Home() {
             </h2>
 
             <ol style={stylingDark}>
-              <li>Contribuye en la  autoexploración del talento y gestión de propias creaciones.</li>
+              <li>
+                Contribuye en la autoexploración del talento y gestión de
+                propias creaciones.
+              </li>
               <li>Contribuye con la identidad y seguridad personal</li>
               <li>Mejora la atención y la concentración.</li>
               <li>Reduce el estrés y la ansiedad.</li>
@@ -93,16 +96,15 @@ export function Home() {
               </p>
             </div>
             <img
-            src={Plan1}
-            alt="Clases de guitarra, informacion"
-            className="col-3 px-0"
-          />
-
+              src={Plan1}
+              alt="Clases de guitarra, informacion"
+              className="col-3 px-0"
+            />
           </div>
         </div>
 
         <div className="row align-items-center  mb-5  border-bottom border-dark">
-        <img
+          <img
             className="col-3 px-0"
             src={Plan2}
             alt="Instrumentos musicales"
@@ -110,7 +112,6 @@ export function Home() {
           <div className="col">
             {/* <h2 style={stylingDark}>title</h2>*/}
             <h2 style={stylingDark}>
-              
               <strong> ¿Sabías que…</strong>
             </h2>
 
@@ -126,7 +127,6 @@ export function Home() {
               vida?
             </p>
           </div>
-
         </div>
       </div>
     </div>

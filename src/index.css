@@ -1,7 +1,7 @@
-@import url('https://fonts.cdnfonts.com/css/bauhaus-modern');
+@import url("https://fonts.cdnfonts.com/css/bauhaus-modern");
 
-:root{
-  font-family: 'Bauhaus Modern', sans-serif;
+:root {
+  font-family: "Bauhaus Modern", sans-serif;
 }
 
 body {
@@ -13,11 +13,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.App{
+.App {
   /*eliminar este espacio de ser necesario*/
   background: #f5d0fe;
   background-clip: padding-box;
-
 }
 
 code {

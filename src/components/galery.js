@@ -17,7 +17,6 @@ export function Galery() {
 
   return (
     <div className="container">
-
       {
         //espacio para videos con estudiantes, de estudiantes o del profesor
         //Dividir espacio con divs identificados en:
@@ -52,7 +51,6 @@ export function Galery() {
           ></button>
         </div>
         <div className="carousel-inner">
-
           <div className="carousel-item active">
             <iframe
               width="560"

@@ -5,7 +5,7 @@ Esta pagina fue creada usando react y componentes funcionales debido a que es un
 Paquetes instalados:
 
 1. Formspree para enviar forms por correo a los encargados de la pagina, sin necesidad de un backend ni un mailer. Sencillo y de forma gratuita. Limitado a 50 avisos mensuales por ahora. La alternativa que se pensaba usar es esta:
-[toperkin](https://github.com/toperkin/staticFormEmails/blob/master/README.md).
+   [toperkin](https://github.com/toperkin/staticFormEmails/blob/master/README.md).
 
 2. gh-pages para el deploy en github.
 
@@ -21,19 +21,12 @@ Paquetes instalados:
 
 8. fontawesome se agregó usando cdn.
 
-
-
 Notas de la reunion 19/05/2023:
-
-
 
 home/
 
 Cambiar video para evitar la barrigota, Yoha lo hace.
 cambiar fondo del fondo <body>
-
-
-
 
 Contenido de las clases/
 
@@ -49,11 +42,7 @@ Clasificar la galeria segun: ensambles, conciertos y clases.
 
 Hacer dropdown para cada elemento:
 
- Paginas para cada uno de estos elementos, buen routing.
-
-
-
-
+Paginas para cada uno de estos elementos, buen routing.
 
 # Getting Started with Create React App
 
