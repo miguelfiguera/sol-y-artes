@@ -21,6 +21,7 @@ export function Teacher({ object }) {
             <h5 class="card-title">{object.name}</h5>
             <p class="card-text">{object.resume}</p>
             <p className="card-text">{object.resume2}</p>
+            <p className="card-text">{object.resume3}</p>
             <div className="row align-items-start">
               {object.instagram === "" ? (
                 <p />

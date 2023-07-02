@@ -233,7 +233,7 @@ export function About() {
                   </li>
                   <br />
                 </div>
-                <div className="col">
+                <div className="col me-5">
                   <li style={stylingDark}>
                     Montaje de repertorio diversos en las áreas de interés del
                     estudiante y lo recomendado por el profesor (académica,
