@@ -1,8 +1,11 @@
 import React from 'react'
 
 export default function Canto() {
+  const stylingDark = {
+    color: '#3b0764',
+  };
   return (
-<div className="container">
+    <div className="container bg-light shadow-lg rounded-3" style={stylingDark}>
     <img 
     src="" alt="" />
 
